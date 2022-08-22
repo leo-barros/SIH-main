@@ -279,6 +279,9 @@ margin-top: 2rem;
 }
 
 .filterContainer {
+  display: flex;
+ flex-direction: column;
+ flex-grow: none;
   margin: auto;
   margin-top: 2rem;
   width: 80%;
@@ -288,7 +291,7 @@ margin-top: 2rem;
   padding-top: 1rem;
 }
 
-.filters {
+.filter {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -298,7 +301,7 @@ margin-top: 2rem;
 
 }
 
-.filters h3 {
+.filter h3 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
 }
@@ -326,7 +329,7 @@ margin-top: 2rem;
   border-radius: 1rem;
 }
 
-.filters ul {
+.filter {
   list-style: none;
   -webkit-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75);
@@ -336,7 +339,7 @@ margin-top: 2rem;
   margin: 0.5rem;
 }
 
-.filters ul:nth-child(1) {
+.filter div:nth-child(1) {
   background: #fd746c; /* fallback for old browsers */
   background: linear-gradient(
     to right,
@@ -345,7 +348,7 @@ margin-top: 2rem;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.filters ul:nth-child(2) {
+.filter div:nth-child(2) {
   background: #457fca; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -359,7 +362,7 @@ margin-top: 2rem;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.filters ul:nth-child(3) {
+.filter div:nth-child(3) {
   background: #b24592; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -373,7 +376,7 @@ margin-top: 2rem;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.filters ul:nth-child(4) {
+.filter div:nth-child(4) {
   background: #ffb75e; /* fallback for old browsers */
   background: linear-gradient(
     to right,
@@ -382,7 +385,7 @@ margin-top: 2rem;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.filters ul:nth-child(5) {
+.filter div:nth-child(5) {
   background: #360033; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -396,7 +399,7 @@ margin-top: 2rem;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.filters ul:nth-child(6) {
+.filter div:nth-child(6) {
   background: #43cea2; /* fallback for old browsers */
   background: linear-gradient(
     to right,
@@ -405,19 +408,19 @@ margin-top: 2rem;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.filters button {
+.filter button {
   display: block;
   font-size: 2rem;
 }
 
-.filters li {
+.filter li {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0.5rem;
 }
 
-.filters li label {
+.filter li label {
   font-size: 1rem;
 }
 
