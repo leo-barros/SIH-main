@@ -22,9 +22,7 @@ function Navbar() {
                 <li className="nav-item">
                   <a className="nav-link fs-6" href="/">About</a>
                 </li>
-                <li className="nav-item search">
-                  <input type="text" placeholder="Search                            🔎" />
-                </li>
+                
                 <li className="nav-item">
                   <button hrrf='/'>Sign up</button>
                 </li>

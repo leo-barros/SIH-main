@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 import styles from './layout.module.css'
 
@@ -36,7 +36,10 @@ function Scholarship( {scholarship}) {
           </div>
         </div>
         <div className={styles.buttons}>
-          <button>Scheme Guidelines<img src="https://img.icons8.com/fluency/48/000000/document.png" /></button>
+        <Link href={scholarship.link}>
+        <button>Scheme Guidelines<img src="https://img.icons8.com/fluency/48/000000/document.png" /></button>
+        </Link>
+          
         </div>
       </div>
       

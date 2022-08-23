@@ -28,7 +28,8 @@ export default function Form() {
         type:event.target.TypeofScholarship.value,
         location:event.target.Locationofstudy.value,
         funding:event.target.Scholarshipfunding.value,
-        deadline:event.target.deadline.value
+        deadline:event.target.deadline.value,
+        link:event.target.link.value
         
         }),
         headers: {
@@ -57,6 +58,7 @@ export default function Form() {
   
     return (
       <Layout>
+        <h1>Admin Portal</h1>
       <form onSubmit={addScholarship} className={styles.formContainer}>
         <InputLabel id="demo-simple-select-label">Title</InputLabel>
         <input id="title" className={styles.formTitle} name="title" type="text" autoComplete="name" required />
@@ -142,10 +144,12 @@ export default function Form() {
           <MenuItem value={"Private"}>Private</MenuItem>
           <MenuItem value={"Not specified"}>Not specified</MenuItem>
         </Select>
-        <FormControlLabel control={<Switch defaultChecked />} label="Label" />
+        
         <InputLabel id="demo-simple-select-label">Deadline</InputLabel>
         <input className={styles.formDate} type="date" id="date" name="deadline"/>
-        <button type="submit" onclick="redirect();">Register</button>
+        <InputLabel id="demo-simple-select-label">Title</InputLabel>
+        <input id="link" className={styles.formLink} name="link" type="text" autoComplete="link" required />
+        <button type="submit" className={styles.submitButton} onclick="redirect();">Register Scholarship</button>
       </form>
       </Layout>
      

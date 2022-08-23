@@ -39,8 +39,8 @@ export default function Form() {
             </p>
     
     <div className={styles.filter}>
-    <InputLabel id="demo-simple-select-label">Category</InputLabel>
-        <Select
+    <InputLabel className={styles.labelText} id="demo-simple-select-label">Category</InputLabel>
+        <Select className={styles.selectField}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           name="Category"
@@ -55,8 +55,8 @@ export default function Form() {
         </Select>
     </div>
     <div className={styles.filter}>
-        <InputLabel id="demo-simple-select-label">Education Level</InputLabel>
-        <Select
+        <InputLabel className={styles.labelText} id="demo-simple-select-label">Education Level</InputLabel>
+        <Select className={styles.selectField}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           name="EducationLevel"
@@ -72,8 +72,8 @@ export default function Form() {
         </Select>
         </div>
         <div className={styles.filter}>
-        <InputLabel id="demo-simple-select-label">Area of study</InputLabel>
-        <Select
+        <InputLabel className={styles.labelText} id="demo-simple-select-label">Area of study</InputLabel>
+        <Select className={styles.selectField}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           name="Areaofstudy"
@@ -88,8 +88,8 @@ export default function Form() {
         </Select>
         </div>
         <div className={styles.filter}>
-        <InputLabel id="demo-simple-select-label">Type of Scholarship</InputLabel>
-        <Select
+        <InputLabel className={styles.labelText} id="demo-simple-select-label">Type of Scholarship</InputLabel>
+        <Select className={styles.selectField}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           name="TypeofScholarship"
@@ -104,8 +104,8 @@ export default function Form() {
         </Select>
         </div>
         <div className={styles.filter}>
-        <InputLabel id="demo-simple-select-label">Location of study</InputLabel>
-        <Select
+        <InputLabel className={styles.labelText} id="demo-simple-select-label">Location of study</InputLabel>
+        <Select className={styles.selectField}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           name="Locationofstudy"
@@ -117,8 +117,8 @@ export default function Form() {
         </Select>
         </div>
         <div className={styles.filter}>
-        <InputLabel id="demo-simple-select-label">Scholarship funding</InputLabel>
-        <Select
+        <InputLabel className={styles.labelText} id="demo-simple-select-label">Scholarship funding</InputLabel>
+        <Select className={styles.selectField}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           name="Scholarshipfunding"
@@ -131,9 +131,14 @@ export default function Form() {
         </div>
         
     
-    <button type='submit'>View Scholarships 🔎</button>
-         
+    
+        <p>
+            Please select an option for each category, if you dont not want to use a particular filter then please click 'Not Specified'
+
+            </p>
 </div>
+
+<button className={styles.submitButton} type='submit'>View Scholarships 🔎</button>
 </form>
   )
 }
