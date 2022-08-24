@@ -22,6 +22,9 @@ function Navbar() {
                 <li className="nav-item">
                   <a className="nav-link fs-6" href="/about">About</a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link fs-6" href="/new">Admin</a>
+                </li>
                 
                 
               </ul>

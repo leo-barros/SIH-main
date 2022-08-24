@@ -1,6 +1,7 @@
 import Router from "next/router"
 import * as React from 'react';
 import Layout from '../components/layout'
+import Link from 'next/link'
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -11,9 +12,12 @@ import Switch from '@mui/material/Switch';
 import styles from '../components/layout.module.css'
 import axios from 'axios';
 import { saveAs } from 'file-saver';
-
-
+import {useUser, withPageAuthRequired} from '@auth0/nextjs-auth0'
+import {WithPageAuthRequired} from '@auth0/nextjs-auth0'
 export default function Form() {
+   
+
+    
     const addScholarship = async event => {
       event.preventDefault()
 
@@ -147,11 +151,17 @@ export default function Form() {
         
         <InputLabel id="demo-simple-select-label">Deadline</InputLabel>
         <input className={styles.formDate} type="date" id="date" name="deadline"/>
-        <InputLabel id="demo-simple-select-label">Title</InputLabel>
+        <InputLabel id="demo-simple-select-label">Link to Guidelines</InputLabel>
         <input id="link" className={styles.formLink} name="link" type="text" autoComplete="link" required />
         <button type="submit" className={styles.submitButton} onclick="redirect();">Register Scholarship</button>
       </form>
+      <Link href="/api/auth/logout">
+      <button className={styles.logoutButton}>Logout</button>
+      </Link>
+      
       </Layout>
      
     )
   }
+ 
+export const getServerSideProps= withPageAuthRequired();
