@@ -26,7 +26,7 @@ function Procedures() {
             <img className={styles.img}  src="/images/casual-life-3d-young-man-holding-blue-smartphone.png" alt=""/>
             <div className={styles.div}>
                 <h2>Apply For Scholarships</h2>
-                <p>You have been matched to college scholarships that fit your profile. Now it's just a matter of applying for them! Check back often to update your profile and view new scholarship matches.
+                <p>You have been matched to college scholarships that fit your profile. Now it&apos;s just a matter of applying for them! Check back often to update your profile and view new scholarship matches.
 
 </p>
                 

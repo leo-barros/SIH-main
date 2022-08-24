@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.about}><br /><br />
       For many students, finance tends to be an omnipresent barrier to a good education.<br /><br />
 
-With the support of the government and well-wishers, the All India Council of Technical Education has done its level best to provide tremendous opportunities to break down these financial barriers in the form of scholarships. While these scholarships exist in great numbers, a lot of these remain vacant owing to the lack of information on the same. While yes, a few scholarship websites do exist, they are often sluggish, tedious, and don't have a good end-user experience. This is where our team, 'Solutionism at its finest' comes in. Our mission is to build an elegant solution to this problem in the form of a fast, seamless website coupled with a modern User Interface. 
+With the support of the government and well-wishers, the All India Council of Technical Education has done its level best to provide tremendous opportunities to break down these financial barriers in the form of scholarships. While these scholarships exist in great numbers, a lot of these remain vacant owing to the lack of information on the same. While yes, a few scholarship websites do exist, they are often sluggish, tedious, and don&apos;t have a good end-user experience. This is where our team, &apos;Solutionism at its finest&apos; comes in. Our mission is to build an elegant solution to this problem in the form of a fast, seamless website coupled with a modern User Interface. 
 <br /><br />
 1) Doing the small things well:<br />
 The two core features of any good website are the User Interface and speed. To achieve this we will be using Next.js and MongoDB.

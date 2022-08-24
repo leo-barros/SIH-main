@@ -153,7 +153,7 @@ export default function Form() {
         <input className={styles.formDate} type="date" id="date" name="deadline"/>
         <InputLabel id="demo-simple-select-label">Link to Guidelines</InputLabel>
         <input id="link" className={styles.formLink} name="link" type="text" autoComplete="link" required />
-        <button type="submit" className={styles.submitButton} onclick="redirect();">Register Scholarship</button>
+        <button type="submit" className={styles.submitButton}>Register Scholarship</button>
       </form>
       <Link href="/api/auth/logout">
       <button className={styles.logoutButton}>Logout</button>
