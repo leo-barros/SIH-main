@@ -34,7 +34,7 @@ export default function Form() {
         <h1>Filters to search:</h1>
         <p>
             Search for scholarships based on the various filters shown below.
-            Tick the relevant boxes that apply to you. Note: These filters are highly selective
+            Select a relevant option that applies to you. Note: These filters are highly selective
 
             </p>
     

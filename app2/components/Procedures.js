@@ -8,7 +8,7 @@ function Procedures() {
           <div className={styles.procedure}>
             <img className={styles.img} src="/images/casual-life-3d-young-man-in-orange-headphones-sitting-at-green-table-and-using-computer.png" alt=""/>
             <div className={styles.div}>
-                <h2>Apply</h2>
+                <h2>Browse</h2>
                 <p>Complete your profile and gain free access to our scholarship database. We make it simple and match you to college scholarships you qualify for instantly.</p>
                 <button>Sign up</button>
             </div>
@@ -17,8 +17,8 @@ function Procedures() {
             
             <div className={styles.div}>
                 <h2>Organize Your Scholarships</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore facilis sapiente omnis nobis expedita ratione itaque deleniti sunt, laudantium repudiandae officia iure repellendus </p>
-                <button>Sign up</button>
+                <p> Be organized and efficient and you are bound to win some scholarships! Select all the scholarships you want to apply for initially and compare them. Many of them will ask similar questions and you will most likely be able to use a single essay for more than one, possibly several different scholarships. Work smarter, not harder!</p>
+                {/* <button>Sign up</button> */}
             </div>
             <img className={styles.img}  src="/images/casual-life-3d-woman-works-on-laptop-sitting-on-the-floor.png" alt=""/>
           </div>
@@ -26,8 +26,10 @@ function Procedures() {
             <img className={styles.img}  src="/images/casual-life-3d-young-man-holding-blue-smartphone.png" alt=""/>
             <div className={styles.div}>
                 <h2>Apply For Scholarships</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore facilis sapiente omnis nobis expedita ratione itaque deleniti sunt, laudantium repudiandae officia iure repellendus </p>
-                <button>Sign up</button>
+                <p>You have been matched to college scholarships that fit your profile. Now it's just a matter of applying for them! Check back often to update your profile and view new scholarship matches.
+
+</p>
+                
             </div>
           </div>
       </div>

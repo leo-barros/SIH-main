@@ -7,7 +7,9 @@ function Showcase() {
           
           <div>
               <h2>Scholarship Portal</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eum veritatis, in harum vitae facere perspiciatis eveniet odio, nulla illo, nisi reprehenderit. Possimus maxime asperiores deserunt</p>
+              <p>We offer a simple and accessible approach to finding and applying for scholarships for students of all ages. Our tried, tested and acclaimed search engine delivers targeted lists of scholarships for the investment of just a few minutes. There's no quicker, better way to find free scholarship money.
+
+              </p>
               <Link href="/scholarships">  
               <a><button>Explore</button></a>
               </Link>

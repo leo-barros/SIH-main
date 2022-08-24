@@ -20,12 +20,10 @@ function Navbar() {
                   <a className="nav-link fs-6" href="/scholarships">Scholarships</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link fs-6" href="/">About</a>
+                  <a className="nav-link fs-6" href="/about">About</a>
                 </li>
                 
-                <li className="nav-item">
-                  <button hrrf='/'>Sign up</button>
-                </li>
+                
               </ul>
             </div>
           </ul></div></nav>

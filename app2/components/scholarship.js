@@ -36,9 +36,25 @@ function Scholarship( {scholarship}) {
           </div>
         </div>
         <div className={styles.buttons}>
-        <Link href={scholarship.link}>
-        <button>Scheme Guidelines<img src="https://img.icons8.com/fluency/48/000000/document.png" /></button>
-        </Link>
+
+        {(() => {
+        if (scholarship.link) {
+          return (
+            
+          <Link href={scholarship.link}>
+          <button>Scheme Guidelines<img src="https://img.icons8.com/fluency/48/000000/document.png" /></button>
+          </Link>
+          )
+        }
+      })()}
+        
+        
+        
+        
+      
+        
+      
+        
           
         </div>
       </div>

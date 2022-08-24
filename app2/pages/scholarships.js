@@ -28,7 +28,7 @@ export default function Scholarships({ scholarships }) {
       </Layout>
     )
   }
-  export async function getStaticProps() {
+  export async function getServerSideProps() {
     const { db } = await connectToDatabase();
     const scholarships = await db
       .collection("scholarships")
